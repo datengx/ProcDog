@@ -1,7 +1,11 @@
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*-
+"""@package MainAppView
 
-import Tkinter as tk
+The main application widget
+"""
+
+import tkinter as tk
 import webbrowser 
 
 class MainAppView(tk.Frame):

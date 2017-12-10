@@ -1,4 +1,8 @@
+"""@package MainAppController
 
+The controller for the MainAppView. Entry point for controlling
+the MainAppView gui.
+"""
 from MainAppView import MainAppView
 
 
@@ -12,7 +16,7 @@ class MainAppController(object):
     def init_view(self,root):
         """Initializes GUI view
 
-            In addition it bindes the Buttons with the callback methods.
+        In addition it bindes the Buttons with the callback methods.
 
            
         """

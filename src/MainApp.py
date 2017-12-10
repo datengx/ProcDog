@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import Tkinter as tk
+import tkinter as tk
 
 from MainAppController import MainAppController
 
@@ -16,7 +16,7 @@ def main():
     controller.init_view(root)
 
 
-    print 'Bye Bye'
+    print('Bye Bye')
 
 
 
